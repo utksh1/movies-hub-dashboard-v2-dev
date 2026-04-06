@@ -192,6 +192,7 @@ export default function App() {
   const [activeItem, setActiveItem] = useState(null);
   const [playerOpen, setPlayerOpen] = useState(false);
   const [playerLoading, setPlayerLoading] = useState(false);
+  const playerStageRef = useRef(null);
   const [currentStreamUrl, setCurrentStreamUrl] = useState("");
   const [servers, setServers] = useState([]);
   const [seasons, setSeasons] = useState([]);
