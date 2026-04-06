@@ -1,7 +1,7 @@
 /**
- * Movies Hub Vercel Serverless Proxy
  * Handles dynamic API key retrieval and CORS-friendly upstream proxying.
  */
+import fetch from "node-fetch";
 
 const DEFAULT_FIREBASE_API_KEY = "AIzaSyCyn-aSaYxz9LrMR5iwq4oVhFypdLhy0CI";
 const DEFAULT_FIREBASE_APP_ID = "1:1005397943435:android:aa251a97505ea861e2e08e";

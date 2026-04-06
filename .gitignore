@@ -10,3 +10,4 @@ stream_verification.json
 .planning_new_init_bkup/
 *.pyc
 __pycache__/
+.vercel
