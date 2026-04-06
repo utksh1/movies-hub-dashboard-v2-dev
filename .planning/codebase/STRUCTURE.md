@@ -5,6 +5,11 @@
 *   `sources/com/movieshubinpire/android/utils/`: Unified helper utilities (HelperUtils, XML parser).
 *   `res/layout/`: UI XML definitions.
 *   `res/values/`: Strings, Colors, and Firebase configuration references.
+*   `webui/`: Web conversion shell using modded layout structure and live endpoint wiring.
+*   `old/modded_apk/`: Primary decompiled artifact for UI/UX conversion.
+*   `old/original_apk/`: Secondary artifact for technical diff only (not UI source).
+*   `.planning/codebase/API_CONTRACT.md`: Verified Phase 2 API contract and source-only route inventory.
+*   `.planning/codebase/PLAYBACK_CONTRACT.md`: Verified Phase 3 playback source behavior and web-player implications.
 
 ## Core Source Files
 *   `AppConfig.java`: Static configuration constants.

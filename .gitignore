@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+dist/
+build/
+.env
+local_proxy.py
+worker.js
+api_map_output.json
+stream_verification.json
+.planning_new_init_bkup/
+*.pyc
+__pycache__/
